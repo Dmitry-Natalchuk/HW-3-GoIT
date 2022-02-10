@@ -46,6 +46,12 @@ img {
 .list {
   list-style-type: none;
 }
+.nav .list {
+  display: flex;
+}
+.nav-list:not(:last-child) {
+  margin-right: 50px;
+}
 .title-section {
   font-weight: bold;
   font-size: 36px;
@@ -54,14 +60,6 @@ img {
   color: var(--secondary-text-color);
 }
 /* WebStudio */
-.header {
-  display: flex;
-  height: 80px;
-  background: #188ce8;
-}
-.header .studio {
-  padding: 24px 94px 25px 215px;
-}
 .studio {
   font-family: var(--secondary-font-famili);
   font-weight: bold;
@@ -81,9 +79,7 @@ img {
   font-size: 14px;
   line-height: 16px;
 }
-.header .list {
-  display: inline-block;
-}
+
 /* E-mail */
 .mail {
   text-decoration: none;
