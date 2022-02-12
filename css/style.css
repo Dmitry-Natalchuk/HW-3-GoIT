@@ -26,16 +26,22 @@ h1,
 h2,
 h3,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -51,6 +57,9 @@ img {
 .list {
   list-style-type: none;
 }
+.header ul {
+  display: flex;
+}
 .nav-list:not(:last-child) {
   margin-right: 50px;
 }
@@ -63,6 +72,7 @@ img {
 }
 /* WebStudio */
 .studio {
+  padding-top: 24px;
   font-family: var(--secondary-font-famili);
   font-weight: bold;
   font-size: 26px;
@@ -98,8 +108,11 @@ img {
 /*Герой*/
 .hero {
   background: var(--secondary-text-color);
+  width: 1600px;
 }
 .text-hero {
+  padding-top: 200px;
+  padding-left: 452px;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -109,6 +122,9 @@ img {
 }
 /*button*/
 .button-hero {
+  min-width: 200px;
+  margin-top: 30px;
+  padding: 10px 32px;
   border: none;
   font-family: inherit;
   font-size: 16px;
